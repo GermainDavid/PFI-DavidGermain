@@ -1,0 +1,598 @@
+body{
+    width: 1200px;
+    border: 5px solid black;
+    margin: auto;
+    height: 2400px;
+    margin-top: 20px;
+    background-color: #546163;
+}
+.flexbox{
+    display: flex;
+    background-color: #757272;
+    border-bottom: 1px solid black;
+}
+.flexbox #menu{
+    width: 22%;
+}
+.flexbox #entete{
+    width: 73%;
+    padding-left: 2%;
+    font-size: 1.5em;
+}
+.flexbox #bouton-menu{
+    width: 5%;
+    padding-top: 375px;
+}
+.bouton-menu{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    border-radius: 20px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: gray;
+    border-right: 1px solid black;
+    height: 800px;
+    padding-left: 10px;
+}
+.bouton{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 70px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.menu .icone{
+    padding-top: 15px;
+
+}
+#topP{
+    padding-right: 10px;
+}
+.menu2{
+    padding-top: 25px;
+    font-size: 1.2em;
+
+}
+audio{
+    padding-top: 10px;
+}
+/*Icônes*/
+#acceuil{
+    height: 35px;
+    width: 35px;
+}
+#actu{
+    height: 35px;
+    width: 35px;
+}
+#top{
+    height: 35px;
+    width: 35px;
+}
+#critique{
+    height: 35px;
+    width: 35px;
+}
+#astuce{
+    height: 40px;
+    width: 40px;
+}
+#photo{
+    height: 35px;
+    width: 35px;
+}
+#renseignement{
+    height: 35px;
+    width: 35px;
+}
+/*Menu*/
+#selected{
+    background-color: #aba6a6;
+    border-radius: 20px;
+}
+.bouton:hover{
+    background-color: #a6a4a4;
+    border-radius: 20px;
+}
+/*Entete*/
+h1{
+    font-family: Kenia;
+}
+.logo{
+    float: right;
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 2px solid white;
+}
+.images-entete{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.bannière{
+    width: 850px;
+    height: 450px;
+    padding-top: 50px;
+}
+/*Contenu*/
+.contenu{
+    background-color: #787878;
+    width: 100%;
+    height: 1600px;
+}
+.titre-contenu{
+    font-family: Orbitron;
+    font-weight: bold;
+    height: 100px;
+    font-size: 2em;
+    width: 100%;
+}
+.titre-section{
+    font-family: Orbitron;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding-right: 40px;
+    background-color: #3e403e;
+    border-radius: 50px;
+}
+td #titre-pair{
+    text-align: right;
+    padding-right: 10px;
+}
+.description{
+    font-size: 1.3em;
+}
+/*Actualité*/
+#hauteur-actu{
+    height: 2465px;
+}
+.tab-titre{
+    background-color: #787878;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+#titre{
+    font-family: Orbitron;
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.gif{
+    width: 450px;
+    height: 270px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.tab-actu-contenu{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tab-actu-contenu img{
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    float: right;
+}
+.tab-actu-contenu .texte{
+    padding-top: 60px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+#image-gauche{
+    width: 600px;
+    height: 358px;
+    float: left;
+}
+/*Top 10*/
+.tab-top{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.tab-top img{
+    width: 290px;
+    height: 140px;
+    padding-left: 10px;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+.tab-top span{
+    font-size: 1.1em;
+    font-family: Orbitron;
+    font-weight: bold;
+    float: left;
+}
+.top-texte{
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+/*Critique*/
+#hauteur-critique{
+    height: 1905px;
+}
+.tab-critique{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    padding-top: 20px;
+}
+.tab-critique img{
+    width: 400px;
+    height: 220px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.tab-critique-texte{
+    padding-top: 30px;
+    font-size: 1.3em;
+}
+.tab-critique-note{
+    padding-top: 50px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #693c0f;
+}
+/*Astuces*/
+#hauteur-astuce{
+    height: 2045px;
+}
+.tab-astuce{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+#tab-astuce-inversé{
+    grid-template-columns: 60% 40%;
+}
+.tab-astuce img{
+    width: 400px;
+    height: 220px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.tab-astuce-texte{
+    padding-top: 25px;
+    font-size: 1.2em;
+}
+.tab-astuce span{
+    font-family: Orbitron;
+    font-weight: bold;
+    float: left;
+}
+/*Photos*/
+#hauteur-galerie{
+    height: 2286px;
+}
+.galerie-tab{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.sous-titre{
+    font-family: Orbitron;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.galerie-tab div{
+    width:28%;
+    float:left;
+    padding :30px;
+}
+.galerie-tab div img{
+    height: 180px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+/*Renseignment*/
+#hauteur-renseignement{
+    height: 2325px;
+}
+.tab-renseignement{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+
+}
+.tab-renseignement img{
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+.tab-renseignement-texte{
+    padding-top: 40px;
+    font-size: 1.5em;
+}
+.tab-renseignement-texte span{
+    font-family: Orbitron;
+    font-weight: bold;
+    float: left;
+    font-size: 1.4em;
+    margin-right: 5px;
+}
+/*media query*/
+@media screen and (max-width: 1200px) {
+    body{
+        font-size: 1.1em;
+        height: 100%;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .bannière{
+        width: 700px;
+        height: 375px;
+        padding-top: 30px;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: gray;
+        border-right: 1px solid black;
+        height: 900px;
+        padding-left: 10px;
+    }
+    /*Actu*/
+    #hauteur-actu{
+        height: 100%;
+    }
+    .tab-actu-contenu img{
+        width: 350px;
+        height: 225px;
+        border-radius: 45px;
+        float: left;
+    }
+    .tab-actu-contenu .texte{
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 1.3em;
+    }
+    #image-gauche{
+        width: 450px;
+        height: 245px;
+        float: left;
+    }
+    .tab-actu-contenu{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left:20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /*Top*/
+    .tab-top{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    /*critique*/
+    #hauteur-critique{
+        height: 100%;
+    }
+    .tab-critique{
+        display: grid;
+        grid-template-columns: 40% 50% 10%;
+        padding-top: 20px;
+    }
+    .tab-critique img{
+        width: 300px;
+        height: 170px;
+        padding-left: 10px;
+        margin-top: 35px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    .tab-critique-texte{
+        padding-top: 15px;
+        font-size: 1.3em;
+    }
+    /*astuce*/
+    #hauteur-astuce{
+        height: 100%;
+    }
+    .tab-astuce img{
+        width: 300px;
+        height: 180px;
+
+    }
+    /*photos*/
+    #hauteur-galerie{
+        height: 100%;
+    }
+    .galerie-tab div{
+        width:100%;
+        padding :30px;
+    }
+    #hauteur-renseignement{
+        height: 2325px;
+    }
+    /*renseignement*/
+    #hauteur-renseignement{
+        height: 100%;
+    }
+    .tab-renseignement{
+        grid-template-columns: 30% 70%;
+    
+    }
+    .tab-renseignement img{
+        width: 250px;
+        height: 140px;
+    }
+
+
+
+}
+@media screen and (max-width: 992px) {
+    body{
+        font-size: 1.2em;
+        height: 100%;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .bannière{
+        width: 570px;
+        height: 315px;
+        padding-top: 35%;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 100%;
+        background-color: gray;
+        border-right: 1px solid black;
+        height: 1200px;
+        padding-left: 10px;
+    }
+    .bouton{
+        display: grid;
+        grid-template-columns: 100%;
+        height: 100px;
+        padding-left: 10px;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+    #acceuil{
+        height: 55px;
+        width: 55px;
+    }
+    #actu{
+        height: 55px;
+        width: 55px;
+    }
+    #top{
+        height: 55px;
+        width: 55px;
+    }
+    #critique{
+        height: 55px;
+        width: 55px;
+    }
+    #astuce{
+        height: 60px;
+        width: 60px;
+    }
+    #photo{
+        height: 55px;
+        width: 55px;
+    }
+    #renseignement{
+        height: 55px;
+        width: 55px;
+    }
+        /*Actu*/
+        .tab-actu-contenu img{
+            width: 350px;
+            height: 225px;
+            border-radius: 45px;
+            float: left;
+        }
+        .tab-actu-contenu .texte{
+            padding-top: 20px;
+            padding-bottom: 25px;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-size: 1.3em;
+        }
+        #image-gauche{
+            margin-top: 60px;
+            width: 350px;
+            height: 225px;
+            float: left;
+        }
+        .tab-actu-contenu{
+            display: grid;
+            grid-template-columns: 100%;
+            margin-left:20px;
+            margin-right: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    /*Top*/
+    .tab-top{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+        /*critique*/
+        .tab-critique{
+            display: grid;
+            grid-template-columns: 40% 50% 10%;
+            padding-top: 20px;
+        }
+        .tab-critique img{
+            width: 250px;
+            height: 150px;
+            padding-left: 10px;
+            margin-top: 35px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+        }
+        .tab-critique-texte{
+            padding-top: 15px;
+            font-size: 1.3em;
+        }
+        /*astuce*/
+        .tab-astuce{
+            display: grid;
+            grid-template-columns: 100%;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 20px;
+        }
+        .tab-astuce img{
+            width: 400px;
+            height: 230px;
+    
+        }
+        #tab-astuce-inversé{
+            grid-template-columns: 100%;
+        }
+    /*renseignement*/
+    .tab-renseignement{
+        grid-template-columns: 25% 75%;
+    
+    }
+    .tab-renseignement img{
+        width: 170px;
+        height: 90px;
+        margin-top: 30px;
+    }
+    
+}
+
